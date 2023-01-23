@@ -1,15 +1,17 @@
 public class Product {
     String name;
     int price;
-    int amount;
+    int quantity;
 
+    //method overloading
     public void ProductEntry(String name,int price){
         this.name=name;
         this.price=price;
     }
-    public void ProductEntry(String name,int price,int amount){
+    //method overloading
+    public void ProductEntry(String name,int price,int quantity){
         this.name=name;
         this.price=price;
-        this.amount=amount;
+        this.quantity=quantity;
     }
 }

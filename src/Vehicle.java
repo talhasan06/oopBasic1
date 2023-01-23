@@ -11,13 +11,14 @@ public class Vehicle {
         this.price=price;
     }
 
-    public void display(){
+    public void displaySomething(){
         System.out.println("Name: "+name);
         System.out.println("Model: "+model);
         System.out.println("Year: "+year);
         System.out.println("Price: "+price);
     }
-    public static void helloBye(){
+    public static void method1(){
+
         System.out.println("Hello World");
     }
 
